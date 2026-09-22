@@ -15,7 +15,6 @@ const CreatePost = () => {
         "http://localhost:3000/create-post",
         formdata,
       );
-      console.log("Post created successfully:", res.data);
 
       navigate("/feed"); // Redirect to the feed page after successful post creation
 
